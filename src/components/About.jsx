@@ -1,5 +1,10 @@
-function About() {
-  return <p>Hey There,..My name is Daniel. Welcome to my blog!</p>;
+function About({ image, about }) {
+  return (
+    <aside>
+      <img src={image} alt="blog logo" />
+      <p>{about}</p>
+    </aside>
+  );
 }
 
 export default About;

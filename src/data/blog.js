@@ -1,14 +1,23 @@
-const articles = [
-  {
-    id: 1,
-    title: "My First Blog",
-    content: "This is my first blog post.",
-  },
-  {
-    id: 2,
-    title: "React Journey",
-    content: "Learning React step by step.",
-  },
-];
+import hero from "../assets/hero.png";
 
-export default articles;
+const blog = {
+  name: "My Personal Blog",
+  image: hero,
+  about: "Welcome to my blog where I share my journey.",
+  posts: [
+    {
+      id: 1,
+      title: "My First Blog",
+      date: "May , 2026",
+      preview: "This is my first blog post.",
+    },
+    {
+      id: 2,
+      title: "React Journey",
+      date: "May , 2026",
+      preview: "Learning React step by step.",
+    },
+  ],
+};
+
+export default blog;

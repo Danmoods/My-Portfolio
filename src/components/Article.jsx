@@ -1,8 +1,9 @@
-function Article({ article }) {
+function Article({ title, date, preview }) {
   return (
     <article>
-      <h2>{article.title}</h2>
-      <p>{article.content}</p>
+      <h3>{title}</h3>
+      <small>{date}</small>
+      <p>{preview}</p>
     </article>
   );
 }
