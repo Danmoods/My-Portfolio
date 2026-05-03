@@ -1,3 +1,4 @@
+import "./App.css";
 import { useState } from "react";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
@@ -18,7 +19,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="app">
       <Header />
       <SearchBar search={search} setSearch={setSearch} />
       <ProjectForm addProject={addProject} />
