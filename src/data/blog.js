@@ -1,23 +1,19 @@
-import hero from "../assets/hero.png";
+const initialProjects = [
+  {
+    id: 1,
+    title: "Portfolio Website",
+    description: "A personal portfolio built with React",
+  },
+  {
+    id: 2,
+    title: "Todo App",
+    description: "A task manager with state handling",
+  },
+  {
+    id: 3,
+    title: "Weather App",
+    description: "Fetches weather using an API",
+  },
+];
 
-const blog = {
-  name: "My Personal Blog",
-  image: hero,
-  about: "Welcome to my blog where I share my journey.",
-  posts: [
-    {
-      id: 1,
-      title: "My First Blog",
-      date: "May , 2026",
-      preview: "This is my first blog post.",
-    },
-    {
-      id: 2,
-      title: "React Journey",
-      date: "May , 2026",
-      preview: "Learning React step by step.",
-    },
-  ],
-};
-
-export default blog;
+export default initialProjects;

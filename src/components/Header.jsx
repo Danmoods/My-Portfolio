@@ -1,9 +1,5 @@
-function Header({ name }) {
-  return (
-    <header>
-      <h1>{name}</h1>
-    </header>
-  );
+function Header() {
+  return <h1>My Portfolio</h1>;
 }
 
 export default Header;
