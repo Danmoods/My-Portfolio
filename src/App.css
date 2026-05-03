@@ -77,3 +77,4 @@ button:hover {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(56, 189, 248, 0.2);
+}
